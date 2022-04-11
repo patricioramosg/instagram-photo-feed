@@ -1,0 +1,47 @@
+img{
+    width: 100%;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    background-color: white;
+    margin-top: 75px;
+    width: 500px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.number{
+    color: gray;
+}
+
+.post-footer{
+    padding: 10px 20px;
+}
+
+.tag{
+    font-weight: bolder;
+}
